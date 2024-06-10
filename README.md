@@ -47,4 +47,5 @@ client 第二階段提供voting result: m以及signature_unblind
 
 如何避免修改及重複投票，在第一階段時server可以紀錄誰簽名過，並過濾掉重複簽名者。
 
+可以藉由同時執行server以及client交互作用來進行投票，其中client1的name 及 id固定，而client2則是隨機動態生成
 
